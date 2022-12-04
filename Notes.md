@@ -3,7 +3,7 @@
 # SMB 
 ## SMB File Share Enumeration
 ```Command: smbclient -N -L \\\\$IP```
-## Connected SMB session
+## Connected SMB Session
 ```
 SMB:> mask ""
 SMB:> recurse ON
