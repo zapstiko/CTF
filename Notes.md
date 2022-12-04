@@ -5,4 +5,4 @@
 `Command`: smbclient -N -L \\\\$IP`
 
 ## DNS servers to confirm the system’s name
-```Command`: dig @10.10.11.174 +short support.htb any```
+````Command`: dig @10.10.11.174 +short support.htb any```
