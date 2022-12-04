@@ -1,3 +1,3 @@
 # SMB File Share Enumeration
 
-`command`: smbclient -N -L \\\\$IP
+`Command`: smbclient -N -L \\\\$IP
