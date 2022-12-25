@@ -1,4 +1,5 @@
-## Local File Inclusion
+# Local File Inclusion
+## Basic Bypasses
 
 ## Non-Recursive Path Traversal Filters 
 * ....//
