@@ -1,3 +1,24 @@
+# Identify Command
+
+* hostname
+* uname -a 
+* cat /etc/issue 
+* cat /proc/version
+* cat /etc/passwd
+* cat /etc/passwd | cut -d : -f 1 
+* history 
+* cat bash_history
+* grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null
+* ls -la /etc/passwd
+* ls -la /etc/shadow
+* find / -name authorized_keys 2> /dev/null
+* find / -name id_rsa 2> /dev/null
+* find -perm -u=s -type f 2>/dev/null 
+* find / -type f -perm -04000 -ls 2>/dev/null
+* getcap -r / 2>/dev/null
+* cat /etc/crontab
+* cat /etc/exports
+ 
 # 1. System Enumeration 
 
 ## Command 
